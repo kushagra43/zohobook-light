@@ -660,10 +660,6 @@ body {
         text-align: center;
     }
 
-    .header-text-container {
-        margin-bottom: 40px;
-    }
-
     .blueheadingbigger {
         font-size: 50px;
     }
@@ -745,6 +741,27 @@ body {
 
     .offerings-grid {
         grid-template-columns: 1fr;
+    }
+
+    .offerings-grid-block {
+        padding: 30px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+        line-height: 120%;
+    }
+
+    .mb40 {
+        margin-bottom: 30px;
     }
 }
 
